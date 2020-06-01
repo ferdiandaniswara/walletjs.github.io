@@ -1,0 +1,296 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("home.png");
+  background-size: cover;
+  color: black;
+  text-align: center;
+  opacity: 1;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.hide-me{
+    visibility: hidden;
+}
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(27, 196, 226, 0.76);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 90px;
+  margin-top: 5px;
+  margin-left:20px;
+  
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(27, 196, 226, 0.76);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(127, 196, 226, 0.76);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.header-right img{
+    padding-top: 7px;
+    padding-right: 9px;
+    width: 15px;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 124px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  
+    transition: 0.4s;
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+}
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: -65px;
+    height: 40px;
+  }
+  
+  
+  .title-white {
+    color: whitesmoke;
+  }
+  
+  .title-black {
+    color: black;
+  }
+ 
+  
+
+  .card-op {
+    width: 150px;                 
+    display: flex;                
+    flex-direction: column;       
+    border: 1px solid rgb(154, 236, 239);   
+    border-radius: 4px;           
+    overflow: hidden;            
+    margin: 5px;                  
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    transition: 0.4s;
+  }
+  .card-op:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .card-header-op {
+    color: rgb(13, 131, 209);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(154, 229, 239);
+    background-color: rgb(235, 251, 255);
+    padding: 5px 10px;
+  }
+  
+  .card-main-op {
+    display: flex;              
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;        
+    padding: 15px 0;           
+  }
+  
+  .material-icons {
+    font-size: 36px;
+    color: rgb(47, 173, 211);
+    margin-bottom: 5px;
+  }
+  
+  .main-description-op {
+    color: rgb(47, 197, 211);
+    font-size: 12px;
+    text-align: center;
+  }
